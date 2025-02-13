@@ -1,1 +1,7 @@
 /*  your css code here. If applicable */
+for(let i = 1 ; i<21 ; i++){
+	let num = alert("enter number");
+	if(num%3===0) console.log(Fizz);
+	else if(num%5===0)console.log(Buzz);
+	if(num%3===0 && num%5===0 )console.log(FizzBuzz);
+}
